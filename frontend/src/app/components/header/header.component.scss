@@ -1,0 +1,28 @@
+header {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1110px;
+    height: 5.5rem;
+    padding: 2.5rem 2.5rem 2.5rem;
+    display: flex;
+    justify-content: space-between;
+
+    .login {
+        display: grid;
+        justify-content: center;
+        min-width: 200px;
+        padding-bottom: 1rem;
+
+        .login_container {
+            display: grid;
+            gap: 10px;
+            min-height: 10rem;
+            font-size: 26px;
+            padding: 1.5rem 1rem;
+            background-color: #85859129;
+            border-radius: 25% 10%;
+            align-items: center;
+            justify-content: center;
+        }
+    }
+}
