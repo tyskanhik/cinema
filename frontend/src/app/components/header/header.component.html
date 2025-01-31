@@ -1,1 +1,13 @@
-<p>header works!</p>
+<header>
+    <a class="logo" routerLink="/"><img src="/assets/logo.svg" alt="logo"></a>
+    <div class="login" (mouseenter)="isLoginHovered = true" (mouseleave)="isLoginHovered = false">
+        <a class="login"><img src="/assets/icon 24x24.svg" alt="Login" ></a>
+
+        @if (isLoginHovered) {
+            <div class="login_container">
+                <a routerLink="/login">Вход</a>
+                <a routerLink="/registr">Регистрация</a>
+            </div>
+        }
+    </div>
+</header>

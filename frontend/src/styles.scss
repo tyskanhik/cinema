@@ -28,7 +28,9 @@
     color: $primary-color;
     text-decoration: none;
     &:hover {
-      text-decoration: underline;
+      text-decoration: none;
+      color: $secondary-color;
+      cursor: pointer;
     }
   }
   
@@ -49,6 +51,6 @@
     transition: background-color 0.3s ease;
   
     &:hover {
-        background-color: color.adjust($primary-color, $lightness: -10%);
+      background-color: color.adjust($primary-color, $lightness: -10%);
     }
   }
